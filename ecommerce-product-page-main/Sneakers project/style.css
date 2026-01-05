@@ -1,0 +1,17 @@
+.container{
+display: flex; 
+ justify-content: center;
+ width: 100%;
+}
+
+.image{
+    flex-basis: 50%;
+}
+
+.words{
+    flex-basis: 50%;
+}
+
+.sneakerimage{
+    width: 100%;
+}
