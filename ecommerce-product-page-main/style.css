@@ -1,0 +1,28 @@
+.container{
+display: flex; 
+ justify-content: center;
+ width: 100%;
+}
+
+.image{
+    flex-basis: 50%;
+}
+
+.bottom_images{
+   display: flex; 
+gap: 5px;
+}
+
+.first_image{
+    width: 200px;
+}
+
+.img1{
+    width: 150px;
+    height: 150px;
+}
+
+.img{
+width: 100px;
+height: 100px;
+}
