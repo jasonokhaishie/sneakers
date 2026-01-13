@@ -27,9 +27,133 @@
     height: 100%;
 }  
 
- .first_image{
+ .first_image {
     height: 600px;
     width: 735px;
-
+   
 } 
 
+.img1{
+    border-radius: 20px;
+}
+
+.second_button{
+background: #ff7a1a;
+  color: #fff;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sneaker_company{
+    color: gray;
+}
+
+.fall{
+    font-size: xxx-large;
+    color: rgb(29, 29, 29);
+}
+
+.percent{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.dollar{
+ font-size: xx-large;
+ font-weight: bold;
+padding: 15px;
+}
+
+.price_dollar{
+    display: flex;
+ align-items: center;
+}
+
+.second_dollar{
+     text-decoration: line-through;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 8px;
+  display: block;
+}
+
+.quantity{
+      display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #f6f6f6;
+  padding: 14px 18px;
+  border-radius: 10px;
+}
+.quantity {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+
+  background: #f6f6f6;
+  padding: 14px 18px;
+  border-radius: 12px;
+}
+
+.qty-btn {
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qty-value {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+.quantity {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #f6f6f6;
+  padding: 14px 18px;
+  border-radius: 12px;
+}
+.quantity-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;              
+  background-color: #f6f6f6; 
+  border-radius: 12px;       
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+  font-family: sans-serif;
+}
+
+.qty-btn {
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qty-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  min-width: 24px;
+  text-align: center;
+}
